@@ -106,6 +106,47 @@ body {
     background-color: #51a580;
 }
 
+.chat-container {
+    flex: 1;
+}
 
+.chat-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
 
+#chat-log {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
 
+#chat-log i {
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.bot, .user {
+    display: flex;
+    align-items: flex-start;
+    color: #eee;
+    width: 100%;
+    padding: 15px 7px 15px 10px;
+    border-radius: 6px;
+}
+
+.bot {
+    background-color: var(--light-bg);
+}
+
+#chat-log #user-icon i {
+    background-color: var(--green);
+    padding: 10px 11px;
+}
+
+#chat-log #bot-icon i {
+    background-color: var(--light-white);
+    padding: 10px 8px 11px;
+}
